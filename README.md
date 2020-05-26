@@ -1,1 +1,1 @@
-# Welcome to the Herbst Relfexion Web Magazine!
+# Welcome to the Herbst Reflexion Web Magazine!
