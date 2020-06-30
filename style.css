@@ -1,8 +1,15 @@
 body {
   background-color: #FFFFFF;
 }
+.logo {
+  padding: 0px 10px 10px;
+  width: 50%;
+}
 
 .brand {
+  padding: 0px 30px 20px;
+  font-family: arial;
+  font-size: 36px;
   color: #9800FF;
 }
 
