@@ -1,47 +1,17 @@
-body {
-  background-color: #FFFFFF;
-}
-.logo {
-  padding: 0px 10px 10px;
-  width: 50%;
-}
-
-.brand {
-  padding: 0px 30px 20px;
-  font-family: arial;
-  font-size: 36px;
-  color: #9800FF;
-}
-
-.logo {
-  rel: 100;
-}
-
 .topnav {
   background-color: #BAF5FF;
   overflow: hidden;
   position: sticky;
   top: 0;
-
 }
 
 .topnav a {
-  float: right;
+  float: left;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px
-}
-
-a.home-button {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px
-
 }
 
 .topnav a:hover {
@@ -55,17 +25,94 @@ background-color: #9800FF;
 color: white;
 }
 
-.constitution p {
-padding: 0px 30px 20px;
-font-family: arial;
-color: black;
-line-height: 24px
-font-size: 16px;
+.banner {
+  width: 100%;
 }
 
-.constitution h2 {
-  padding: 0px 30px 20px;
-  font-family: arial;
+.backtohome {
+  background-color: #BAF5FF;
+  overflow: hidden;
+}
+
+.backtohome a {
+  float: left;
   color: black;
-  font-size: 32px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px
+}
+
+.backtohome a:hover {
+  background-color: #ddd;
+  color: black;
+
+}
+
+.backtohome a:active {
+background-color: #9800FF;
+color: white;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.wrapper h1 {
+  font-size: 30px;
+  line-height: 35px;
+  padding: 5px 25px 0px 25px;
+  font-family: arial;
+  text-align: center;
+}
+
+.wrapper h2 {
+  font-size: 25px;
+  line-height: 30px;
+  padding: 5px 25px 0px 25px;
+  font-family: arial;
+  text-align: left;
+}
+
+.wrapper p {
+  text-align: left;
+  font-family: arial;
+}
+
+.footer-container {
+  background-color: #BAF5FF;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-item {
+padding: 5px 10px 5px 10px;
+}
+
+.footer-item h2 {
+  font-size: 25px;
+  line-height: 30px;
+  padding: 5px 25px 0px 25px;
+  font-family: arial;
+  text-align: left;
+}
+
+.footer-item p {
+  text-align: left;
+  font-family: arial;
+  padding: 5px 0px 5px;
+}
+
+
+.footer-item-1 {
+min-height: 100px;
+}
+
+.footer-item-2 {
+min-height: 100px;
+}
+
+.footer-item-3 {
+min-height: 100px;
 }

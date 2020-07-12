@@ -25,6 +25,10 @@ background-color: #9800FF;
 color: white;
 }
 
+.banner {
+  width: 100%;
+}
+
 .backtohome {
   background-color: #BAF5FF;
   overflow: hidden;
@@ -50,18 +54,17 @@ background-color: #9800FF;
 color: white;
 }
 
-.title {
+.wrapper {
+  width: 100%;
+}
+
+.wrapper h1 {
   padding: 5px 25px 0px 25px;
   font-family: arial;
   text-align: center;
-
 }
 
-.poem {
-  position: static;
-}
-
-.stanza {
+.wrapper p {
   text-align: center;
   font-family: arial;
   font-style: oblique;
