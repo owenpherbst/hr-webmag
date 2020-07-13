@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+.wrapper {
+  width: 100%;
+  justify-content: center;
+}
+
 .topnav {
   background-color: #BAF5FF;
   overflow: hidden;
@@ -25,9 +35,6 @@ background-color: #9800FF;
 color: white;
 }
 
-.banner {
-  width: 100%;
-}
 
 .backtohome {
   background-color: #BAF5FF;
@@ -54,10 +61,6 @@ background-color: #9800FF;
 color: white;
 }
 
-.wrapper {
-  width: 100%;
-}
-
 .wrapper h1 {
   font-size: 30px;
   line-height: 35px;
@@ -82,7 +85,7 @@ color: white;
 .footer-container {
   background-color: #BAF5FF;
   width: 100%;
-  display: flex;
+  display: inline-flex;
   justify-content: space-around;
 }
 
@@ -115,4 +118,19 @@ min-height: 100px;
 
 .footer-item-3 {
 min-height: 100px;
+}
+
+.banner {
+  display: none;
+}
+
+@media only screen And (min-width:768px) {
+  .wrapper {
+    width: 600px;
+  }
+  .banner {
+    display: block;
+    width: 100%;
+    }
+  }
 }
